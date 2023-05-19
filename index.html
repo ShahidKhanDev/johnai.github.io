@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1daeea735e.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="idle__section" id="idle__section">
+        <div class="top__row">
+          <p class="ai__intro">Hi, I'm John.</p>
+          <p class="ai__tip"></p>
+        </div>
+        <div class="bottom__row">
+          <div class="clock">
+            <div class="hour">--:--</div>
+            <div class="minutes">--</div>
+          </div>
+          <div class="notifications">No new notifications.</div>
+        </div>
+      </section>
+
+      <section class="time__section" id="time__section">
+        <div class="clock">
+          <div class="hour">--:</div>
+          <div class="minutes">--:</div>
+          <div class="seconds">--</div>
+        </div>
+      </section>
+
+      <section class="weather__section active" id="weather__section">
+        <!-- <div class="weather__container">
+          <div class="weather__details">
+            <div class="country__name">Afghanistan</div>
+            <div class="icon">
+              <img src="/src/images/weather/clear.svg" alt="weather icon" />
+            </div>
+            <div class="weather__degrees">
+              <div class="degree">16°C</div>
+              <div class="degree">37°F</div>
+            </div>
+
+            <div class="weather__type">Rainy</div>
+          </div>
+        </div> -->
+
+        <div class="weather__container">
+          <!-- <div class="weather__type">Clear Sky</div>
+
+          <div class="weather__details">
+            <div class="row">
+              <div class="country__name">Afghanistan</div>
+              <div class="country__flag">🍳</div>
+            </div>
+
+            <div class="row">
+              <div class="left">
+                <div class="weather__degree">22°C</div>
+                <div class="city__name">Kabul</div>
+              </div>
+              <div class="right">
+                <img src="src/images/weather/clear.svg" alt="weather icon" />
+              </div>
+            </div>
+          </div>
+
+          <div class="weather__more">
+            <div class="box">
+              <i class="fa-solid fa-temperature-three-quarters"></i>
+
+              <div class="feel__degree">
+                <p>32°C</p>
+                <span>Feels Like</span>
+              </div>
+            </div>
+
+            <div class="box">
+              <i class="fa-solid fa-droplet"></i>
+              <div class="feel__degree">
+                <p>80%</p>
+                <span>Humidity</span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <!-- speech popup -->
+    <div class="speech__popup"></div>
+
+    <!-- annyang cdn -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <!-- country flags -->
+    <script src="https://unpkg.com/country-flag-emoji@latest/dist/country-flag-emoji.umd.js"></script>
+    <!-- custom js -->
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
