@@ -53,6 +53,8 @@ section.active {
   transform: translate(-50%, -50%);
   text-align: center;
   color: var(--white);
+  width: 100%;
+  height: 19vh;
 }
 
 .idle__section .top__row .ai__intro {
@@ -306,4 +308,20 @@ section.active {
 .speech__popup::-webkit-scrollbar {
   display: none;
   appearance: none;
+}
+
+/* media queries */
+@media (max-width: 475px) {
+  .idle__section .top__row {
+    top: 40%;
+  }
+
+  .idle__section .top__row .ai__tip {
+    font-size: 1.05rem;
+    padding: 0 0.5rem;
+  }
+
+  .idle__section .bottom__row .notifications {
+    display: none;
+  }
 }
